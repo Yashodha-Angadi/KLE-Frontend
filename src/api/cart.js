@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "https://kle-backend-5pbw.onrender.com";
 
 export async function addToCart(product) {
   const response = await fetch(`${API_URL}/cart/add`, {
